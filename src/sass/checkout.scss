@@ -1,0 +1,36 @@
+@import "../sass/variables";
+
+.checkout {
+  overflow: hidden;
+  background-color: $second-color;
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .keto-color {
+    color: $main-color;
+  }
+  .total {
+    font-size: 13px;
+  }
+  .p-show {
+    background-color: $main-color;
+    width: 100%;
+    margin-top: 220px;
+    .disabled {
+      user-select: none;
+    }
+  }
+  .confirm {
+    div:first-of-type {
+      width: 25%;
+      height: 2px;
+      background-color: $main-color;
+    }
+    div {
+      width: 25%;
+      height: 2px;
+      background-color: #ccc;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+@import "../sass/variables";
+@import "../sass//mixin";
+@import "../scss//fontawesome.scss";
+@import "../scss//brands.scss";
+@import "../scss//solid.scss";
+@import "../scss//regular.scss";
+
+.payment {
+  overflow: hidden;
+  background-color: $second-color;
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .icon {
+    color: $main-color;
+    font-size: 150px;
+  }
+  .confirm {
+    div:first-of-type {
+      background-color: $main-color;
+    }
+    div:nth-child(2) {
+      background-color: $main-color;
+    }
+    div:nth-child(3) {
+      background-color: $main-color;
+    }
+    div {
+      width: 25%;
+      height: 2px;
+      background-color: #ccc;
+    }
+  }
+  .home-info {
+    div {
+      width: 170px;
+      height: 100px;
+    }
+    div.active {
+      border: 1px solid $main-color;
+    }
+  }
+  .safe {
+    background-color: rgba(57, 142, 65, 0.13);
+  }
+  .set-time {
+    background-color: $main-color;
+  }
+}

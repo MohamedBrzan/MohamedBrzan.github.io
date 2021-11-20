@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAY;EACV,SAAS,EAAE,GAAG",
+"sources": ["../sass/search-rtl.scss"],
+"names": [],
+"file": "search-rtl.css"
+}

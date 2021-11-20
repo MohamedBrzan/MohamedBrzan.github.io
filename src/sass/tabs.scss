@@ -1,0 +1,39 @@
+@import "./variables";
+@import "./mixin";
+@import "../scss/fontawesome.scss";
+@import "../scss/solid.scss";
+@import "../scss/brands.scss";
+@import "../scss/regular.scss";
+
+.tab-info {
+  position: relative;
+  font-family: "Noto Sans Arabic", sans-serif;
+  @include fa-icon;
+  @extend .fas;
+  &::before {
+    content: fa-content($fa-var-info-circle);
+    font-weight: $fa-style;
+    font-family: $fa-style-family;
+    position: absolute;
+    top: -5px;
+    right: -50px;
+    color: $main-color;
+    font-size: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: $main-color !important;
+}
+.css-1aquho2-MuiTabs-indicator {
+  background-color: #000 !important;
+}

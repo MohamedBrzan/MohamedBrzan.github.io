@@ -1,0 +1,55 @@
+@import "../sass/variables";
+@import "../sass/mixin";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.canvas {
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: $second-color;
+  width: 411px;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 999999;
+  user-select: none;
+  @include Transition;
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
+  div {
+    a {
+      @include Transition;
+      &:hover {
+        color: $main-color;
+        padding-right: 25px;
+      }
+    }
+  }
+  .title {
+    background-color: $main-color;
+  }
+  .close {
+    color: $main-color;
+  }
+  .NavLinks,
+  .menu-section {
+    @media (max-width: 991px) {
+      text-align: center !important;
+    }
+  }
+
+  @media (min-width: 991px) {
+    display: none;
+  }
+}
+
+.canvas.show {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}

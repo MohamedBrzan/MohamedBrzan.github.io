@@ -1,0 +1,15 @@
+@import "./variables";
+.status-rtl {
+  direction: rtl;
+  overflow: hidden;
+  background-color: $second-color;
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .p-show {
+    background-color: $main-color;
+    width: 100%;
+    margin-top: 720px;
+  }
+}

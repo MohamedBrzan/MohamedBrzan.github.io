@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,SAAU;EACR,gBAAgB,ECHL,OAAO;;ADMpB,QAAS;EACP,MAAM,EAAE,IAAI",
+"sources": ["../sass/forms.scss","../sass/_variables.scss"],
+"names": [],
+"file": "forms.css"
+}

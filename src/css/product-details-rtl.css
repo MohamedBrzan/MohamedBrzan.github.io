@@ -1,0 +1,12 @@
+.product-details-rtl {
+  direction: rtl;
+  background-color: #f5f5f9;
+  overflow: hidden; }
+.product-details-rtl .pieces {
+  user-select: none; }
+.product-details-rtl .p-show {
+  background-color: #da8516;
+  width: 50%;
+  margin: 80px 0 0 0; }
+
+/*# sourceMappingURL=product-details-rtl.css.map */

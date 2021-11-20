@@ -1,0 +1,32 @@
+@import "./variables";
+@import "./mixin";
+@import "../scss/fontawesome.scss";
+@import "../scss/solid.scss";
+@import "../scss/brands.scss";
+@import "../scss/regular.scss";
+
+.branches-rtl {
+  direction: rtl;
+  .tab-info {
+    position: relative;
+    font-family: "Tahoma";
+    @include fa-icon;
+    @extend .fas;
+    &::before {
+      content: fa-content($fa-var-info-circle);
+      font-weight: $fa-style;
+      font-family: $fa-style-family;
+      position: absolute;
+      top: -5px;
+      right: 70px;
+      color: $main-color;
+      font-size: 25px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+  }
+}

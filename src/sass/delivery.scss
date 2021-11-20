@@ -1,0 +1,26 @@
+@import "../sass//variables";
+@import "../sass//mixin";
+@import "../scss//fontawesome.scss";
+@import "../scss//solid.scss";
+@import "../scss//regular.scss";
+@import "../scss//brands.scss";
+.delivery {
+  overflow: hidden;
+  .set-time {
+    background-color: $main-color;
+  }
+  .days {
+    .row {
+      overflow: auto;
+      .day.active {
+        background-color: $second-color;
+      }
+    }
+  }
+  .deliver-btn {
+    margin: 400px 0 0;
+    @media (max-width: 991px) {
+      margin: 60px 0 0 0;
+    }
+  }
+}

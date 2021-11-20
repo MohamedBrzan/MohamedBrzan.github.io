@@ -1,0 +1,27 @@
+.checkout-rtl {
+  direction: rtl;
+  overflow: hidden;
+  background-color: #f5f5f9; }
+.checkout-rtl .title {
+  font-size: 18px;
+  font-weight: bold; }
+.checkout-rtl .keto-color {
+  color: #da8516; }
+.checkout-rtl .total {
+  font-size: 13px; }
+.checkout-rtl .p-show {
+  background-color: #da8516;
+  width: 100%;
+  margin-top: 220px; }
+.checkout-rtl .p-show .disabled {
+  user-select: none; }
+.checkout-rtl .confirm div:first-of-type {
+  width: 25%;
+  height: 2px;
+  background-color: #da8516; }
+.checkout-rtl .confirm div {
+  width: 25%;
+  height: 2px;
+  background-color: #ccc; }
+
+/*# sourceMappingURL=checkout-rtl.css.map */

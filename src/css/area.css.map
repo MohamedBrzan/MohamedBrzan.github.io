@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,KAAM;EACJ,QAAQ,EAAE,MAAM;EAChB,gBAAgB,ECFH,OAAO;ADGpB,YAAO;EACL,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;AAEnB,aAAQ;EACN,gBAAgB,ECTP,OAAO;EDUhB,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,KAAK",
+"sources": ["../sass/area.scss","../sass/_variables.scss"],
+"names": [],
+"file": "area.css"
+}

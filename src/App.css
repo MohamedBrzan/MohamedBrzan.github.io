@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Noto Sans Arabic", sans-serif;
+}
+
+::selection {
+  color: #fff;
+  background-color: #da8516 !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #888;
+}
+::-webkit-scrollbar-thumb {
+  background: #da8516;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #da8516;
+}

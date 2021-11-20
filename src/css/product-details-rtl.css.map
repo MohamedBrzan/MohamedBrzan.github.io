@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,oBAAqB;EACnB,SAAS,EAAE,GAAG;EACd,gBAAgB,ECHH,OAAO;EDIpB,QAAQ,EAAE,MAAM;AAChB,4BAAQ;EACN,WAAW,EAAE,IAAI;AAEnB,4BAAQ;EACN,gBAAgB,ECVP,OAAO;EDWhB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,UAAU",
+"sources": ["../sass/product-details-rtl.scss","../sass/_variables.scss"],
+"names": [],
+"file": "product-details-rtl.css"
+}

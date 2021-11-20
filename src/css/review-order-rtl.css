@@ -1,0 +1,20 @@
+.review-order-rtl {
+  direction: rtl;
+  user-select: none;
+  overflow: hidden;
+  background-color: #f5f5f9; }
+.review-order-rtl .title {
+  font-size: 18px;
+  font-weight: bold; }
+.review-order-rtl .keto-color {
+  color: #da8516; }
+.review-order-rtl .total {
+  font-size: 13px; }
+.review-order-rtl .p-show {
+  background-color: #da8516;
+  width: 100%;
+  margin-top: 80px; }
+.review-order-rtl .p-show .disabled {
+  user-select: none; }
+
+/*# sourceMappingURL=review-order-rtl.css.map */

@@ -1,0 +1,85 @@
+@import "../sass/variables";
+@import "../sass//mixin";
+@import "../scss//fontawesome.scss";
+@import "../scss//solid.scss";
+@import "../scss//regular.scss";
+@import "../scss//brands.scss";
+
+.delivery-address {
+  overflow: hidden;
+  user-select: none;
+  background-color: $second-color;
+  .icon {
+    font-size: 100px;
+    color: $main-color;
+  }
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .keto-color {
+    color: $main-color;
+  }
+  .total {
+    font-size: 13px;
+  }
+  .p-show {
+    background-color: $main-color;
+    width: 100%;
+    margin-top: 220px;
+    .disabled {
+      user-select: none;
+    }
+  }
+  .confirm {
+    div:first-of-type {
+      width: 25%;
+      height: 2px;
+      background-color: $main-color;
+    }
+    div:nth-child(2) {
+      width: 25%;
+      height: 2px;
+      background-color: $main-color;
+    }
+    div {
+      width: 25%;
+      height: 2px;
+      background-color: #ccc;
+    }
+  }
+  .home-info {
+    @include fa-icon;
+    @extend .fas;
+    div:first-of-type {
+      @include Prepare;
+      &::before {
+        content: fa-content($fa-var-home);
+        @include FaStuff;
+        @include MiddleInside;
+        @include Middle;
+      }
+    }
+    div:nth-child(2) {
+      @include Prepare;
+      &::before {
+        content: fa-content($fa-var-building);
+        @include FaStuff;
+        @include MiddleInside;
+        @include Middle;
+      }
+    }
+    div:last-of-type {
+      @include Prepare;
+      &::before {
+        content: fa-content($fa-var-briefcase);
+        @include FaStuff;
+        @include MiddleInside;
+        @include Middle;
+      }
+    }
+    div.active {
+      border: 1px solid $main-color;
+    }
+  }
+}

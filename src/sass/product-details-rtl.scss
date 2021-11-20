@@ -1,0 +1,15 @@
+@import "./variables";
+
+.product-details-rtl {
+  direction: rtl;
+  background-color: $second-color;
+  overflow: hidden;
+  .pieces {
+    user-select: none;
+  }
+  .p-show {
+    background-color: $main-color;
+    width: 50%;
+    margin: 80px 0 0 0;
+  }
+}

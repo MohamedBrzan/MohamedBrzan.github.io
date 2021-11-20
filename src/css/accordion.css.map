@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,EAAG;EACD,gBAAgB,ECFH,OAAO;EDGpB,MAAM,EAAE,GAAG",
+"sources": ["../sass/accordion.scss","../sass/_variables.scss"],
+"names": [],
+"file": "accordion.css"
+}

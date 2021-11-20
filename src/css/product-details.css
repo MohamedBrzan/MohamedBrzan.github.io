@@ -1,0 +1,11 @@
+.product-details {
+  background-color: #f5f5f9;
+  overflow: hidden; }
+.product-details .pieces {
+  user-select: none; }
+.product-details .p-show {
+  background-color: #da8516;
+  width: 50%;
+  margin: 80px 0 0 0; }
+
+/*# sourceMappingURL=product-details.css.map */

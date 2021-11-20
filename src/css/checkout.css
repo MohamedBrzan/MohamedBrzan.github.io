@@ -1,0 +1,26 @@
+.checkout {
+  overflow: hidden;
+  background-color: #f5f5f9; }
+.checkout .title {
+  font-size: 18px;
+  font-weight: bold; }
+.checkout .keto-color {
+  color: #da8516; }
+.checkout .total {
+  font-size: 13px; }
+.checkout .p-show {
+  background-color: #da8516;
+  width: 100%;
+  margin-top: 220px; }
+.checkout .p-show .disabled {
+  user-select: none; }
+.checkout .confirm div:first-of-type {
+  width: 25%;
+  height: 2px;
+  background-color: #da8516; }
+.checkout .confirm div {
+  width: 25%;
+  height: 2px;
+  background-color: #ccc; }
+
+/*# sourceMappingURL=checkout.css.map */
